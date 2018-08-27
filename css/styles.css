@@ -131,7 +131,7 @@ nav h1 a {
 }
 
 .filter-options h2 {
-  color: white;
+  color: #fff;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1;
@@ -139,8 +139,7 @@ nav h1 a {
 }
 
 .filter-options select {
-  background-color: white;
-  border: 1px solid #fff;
+  background-color: #fff;
   font-family: Arial,sans-serif;
   font-size: 0.8em;
   height: 35px;
@@ -179,9 +178,6 @@ nav h1 a {
   background-color: #ccc;
   display: block;
   margin: 0;
-  /*max-width: 100%;
-  min-height: auto;
-  min-width: 100%;*/
   width: 100%;
 }
 
@@ -227,7 +223,6 @@ nav h1 a {
 }
 
 .inside #map-container {
-  /*background: blue none repeat scroll 0 0;*/
   position: relative;
   height: 350px;
   width: 100%; 
@@ -255,7 +250,7 @@ nav h1 a {
 }
 
 #restaurant-img {
-	width: 100%; /*100%*/
+	width: 100%; 
 }
 
 #restaurant-address {
@@ -283,15 +278,12 @@ nav h1 a {
   padding: 5px 0;
 }
 
-/*DELETE if not neede*/
 #restaurant-container {
   width: 100%;
   position: relative;
 }
 
 #restaurant-container, #reviews-container {
-  /*border-bottom: 1px solid #d9d9d9;
-  border-top: 1px solid #fff;*/
   box-sizing: border-box;
   padding: 30px 40px;
 }
@@ -350,6 +342,7 @@ nav h1 a {
 }
 
 /* ====================== Media Queries ====================== */
+
 @media (max-width: 400px) {
   nav h1 a {
     font-size: 0.35em;
@@ -368,6 +361,7 @@ nav h1 a {
   }
 }
 
+
 @media (min-width: 401px) and (max-width: 500px) {
   nav h1 a {
     font-size: 0.45em;
@@ -378,16 +372,19 @@ nav h1 a {
   }
 }
 
+
 @media (max-width: 656px) {
   nav h1 a {
   }
 }
+
 
 @media (min-width: 640px) and (max-width: 1158px) {
   #restaurants-list li {
     max-width: 35%;
   }
 }
+
 
 @media (max-width: 814px) {
   #restaurants-list li h1 {
@@ -411,11 +408,13 @@ nav h1 a {
   }
 }
 
+
 @media (max-width: 1130px) {
   #restaurants-list li h1 {
     font-size: 0.7em;
   }  
 }
+
 
 @media (max-width: 1240px) {
   #restaurants-list p {
@@ -423,7 +422,7 @@ nav h1 a {
   }
 }
 
-/*1000*/
+
 @media (min-width: 1159px) {
   #restaurants-list li {
     max-width: 25%;
@@ -435,10 +434,6 @@ nav h1 a {
     width: 100%;
     z-index: 1000;
   }
-
-  /*#breadcrumb {
-    width: calc(50% - 80px);
-  }*/
 
   .inside #map-container {
     background: blue none repeat scroll 0 0;
