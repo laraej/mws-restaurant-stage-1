@@ -181,7 +181,7 @@ nav h1 a {
   width: 100%;
 }
 
-#restaurants-list li h1 {
+#restaurants-list li h2 {
   color: #00aba0;
   font-family: Arial,sans-serif;
   font-size: 0.9em;
@@ -387,7 +387,7 @@ nav h1 a {
 
 
 @media (max-width: 814px) {
-  #restaurants-list li h1 {
+  #restaurants-list li h2 {
     height: 48px;
   }
 
@@ -410,8 +410,8 @@ nav h1 a {
 
 
 @media (max-width: 1130px) {
-  #restaurants-list li h1 {
-    font-size: 0.7em;
+  #restaurants-list li h2 {
+    font-size: 0.75em;
   }  
 }
 
