@@ -318,6 +318,7 @@ nav h1 a {
 
 #reviews-list li p {
   margin: 0 0 10px;
+  font-size: 0.75em;
 }
 
 #reviews-list li p:first-of-type {
@@ -329,7 +330,6 @@ nav h1 a {
 #reviews-list li p:nth-of-type(2) {
   float: right;
   font-style: italic;
-  font-size: 0.8em;
 }
 
 #reviews-list li p:nth-of-type(3) {
@@ -396,7 +396,7 @@ nav h1 a {
   }
 
   #reviews-list li p {
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
 
   #restaurant-hours tr td{
